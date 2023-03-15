@@ -10,12 +10,21 @@ namespace Helloworld
     {
         static void Main(string[] args)
         {
-            int numeroQualquer = 30 - 50 + 60;
-            int numeroMult = 3 * 5 / 7;
 
-            Console.WriteLine(numeroQualquer);
-            Console.WriteLine(numeroMult);
+            int idade = int.Parse(Console.ReadLine());
 
+            if (idade >= 0 && idade <= 11) {
+                Console.WriteLine("criança");
+            } else if (idade >= 11 && idade <= 18) {
+                Console.WriteLine("adolescente");
+            } else if (idade >= 18 && idade <= 60) {
+                Console.WriteLine("adulto");
+            } if (idade >= 60) {
+                Console.WriteLine("idoso");
+            }
+            
+
+            
             Console.ReadLine();
         }
     }
