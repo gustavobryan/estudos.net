@@ -10,13 +10,11 @@ namespace Helloworld
     {
         static void Main(string[] args)
         {
-            string nome = "";
+            int numeroQualquer = 30 - 50 + 60;
+            int numeroMult = 3 * 5 / 7;
 
-            Console.WriteLine("Escreva seu nome: ");
-            nome = Console.ReadLine();
-
-            Console.WriteLine("Seu nome é: ");
-            Console.WriteLine(nome);
+            Console.WriteLine(numeroQualquer);
+            Console.WriteLine(numeroMult);
 
             Console.ReadLine();
         }
