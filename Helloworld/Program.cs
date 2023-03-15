@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,22 +11,27 @@ namespace Helloworld
     {
         static void Main(string[] args)
         {
+            ExibirMsg();
+            GerarPreco(-20);
+            GerarPreco(-90);
+            GerarPreco(-120);
 
-            int idade = int.Parse(Console.ReadLine());
 
-            if (idade >= 0 && idade <= 11) {
-                Console.WriteLine("criança");
-            } else if (idade >= 11 && idade <= 18) {
-                Console.WriteLine("adolescente");
-            } else if (idade >= 18 && idade <= 60) {
-                Console.WriteLine("adulto");
-            } if (idade >= 60) {
-                Console.WriteLine("idoso");
-            }
-            
-
-            
             Console.ReadLine();
+        }
+
+        static void ExibirMsg()
+        {
+            Console.WriteLine("Esse sistema é top!");
+            Console.WriteLine("Bem-vindo!");
+            Console.WriteLine("Volte sempre!");
+        }
+
+        static void GerarPreco(int preco)
+        {
+            int precoAbs = Math.Abs(preco);
+            int valorFinal = precoAbs + (2 * precoAbs);
+            Console.WriteLine("Valor final: " + valorFinal);
         }
     }
 }
