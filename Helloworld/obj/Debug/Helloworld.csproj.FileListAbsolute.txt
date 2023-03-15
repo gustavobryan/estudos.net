@@ -1,0 +1,8 @@
+C:\Users\gbrya\source\repos\dotnet\Helloworld\Helloworld\obj\Debug\Helloworld.csproj.AssemblyReference.cache
+C:\Users\gbrya\source\repos\dotnet\Helloworld\Helloworld\obj\Debug\Helloworld.csproj.SuggestedBindingRedirects.cache
+C:\Users\gbrya\source\repos\dotnet\Helloworld\Helloworld\obj\Debug\Helloworld.csproj.CoreCompileInputs.cache
+C:\Users\gbrya\source\repos\dotnet\Helloworld\Helloworld\bin\Debug\Helloworld.exe.config
+C:\Users\gbrya\source\repos\dotnet\Helloworld\Helloworld\bin\Debug\Helloworld.exe
+C:\Users\gbrya\source\repos\dotnet\Helloworld\Helloworld\bin\Debug\Helloworld.pdb
+C:\Users\gbrya\source\repos\dotnet\Helloworld\Helloworld\obj\Debug\Helloworld.exe
+C:\Users\gbrya\source\repos\dotnet\Helloworld\Helloworld\obj\Debug\Helloworld.pdb
