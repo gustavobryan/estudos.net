@@ -10,38 +10,15 @@ namespace Helloworld
     {
         static void Main(string[] args)
         {
+            string nome = "";
 
-            // Int - número inteiros -1 10
-            // Float - números quebrados 1.4 ==> Double| Decimal
-            // Bool - true or false
-            // String - "texto"
-            // Char - ''
+            Console.WriteLine("Escreva seu nome: ");
+            nome = Console.ReadLine();
 
-
-            // A-Z, 0 - 9, SEM CARACTERES, SÓ _
-            // 
-            /*int segundaGuerraMundial = 1942;
-            string corFavorita = "azul";
-            float velocidadeF1 = 294.48f;
-            bool segGuerraMundial = true;
-
-            Console.WriteLine(segundaGuerraMundial);
-            Console.WriteLine(corFavorita);
-            Console.WriteLine(velocidadeF1);
-            Console.WriteLine(segGuerraMundial);
-
-            velocidadeF1 = 348.29f;
-
-            Console.WriteLine(velocidadeF1);
-            
-             var cor = "azul";*/
-            const float PI = 3.1455876879f;
-
-            Console.WriteLine(PI);
+            Console.WriteLine("Seu nome é: ");
+            Console.WriteLine(nome);
 
             Console.ReadLine();
-
-
         }
     }
 }
